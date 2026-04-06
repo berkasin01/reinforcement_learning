@@ -16,6 +16,12 @@ Similar approach to Cartpole, realised as the game gets more complex we need to 
 
 Still used DQN using Stable Baselines 3. However, the policy was different "CnnPolicy" which uses looking at the screen in pixels.
 
+## Snake Game
+
+This is a manual approach building an agent that would play snake. It uses Pygame.Built states, explaining dangers to agent, different actions (being able to move in directions), being able to get game_step and finally using epsilon(learning rate).
+
+Using Pygame, numpy and random.
+
 ## What is next
 
 More environments and algorithms will be added to this repo over time. This is an ongoing project.
